@@ -24,4 +24,7 @@ for fire , office in zip(fire_images,office_images):
     office_img[y_offset:y_offset + fire_h, x_offset:x_offset + fire_w] = fire_img_resized
     cv2.imshow("imposed image",office_img)
     cv2.waitKey(0)
+    print("this is my code!!")
+    
+    
    
